@@ -1,0 +1,22 @@
+{
+  "name": "QUEEN ZYAN",
+  "description": "Customizable WhatsApp Bot",
+  "repository": "https://github.com/DevRegeX/Queen-Zyan",
+  "logo": "https://i.ibb.co/T1DqdYz/thumbnail.jpg",
+  "keywords": ["bot", "whatsapp", "whatsapp-bot", "QUEEN ZYAN", "GURU-bot-md", "GURU-bot"],
+  "stack": "container",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
